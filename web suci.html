@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>  
+                <li><a href="#hobby">Hobby</a></li>  
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span id="typing"></span></h1>
+            <p>I am a student at universitas Muhammadiyah Buton.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="suci.jpg" alt="Foto Profil">
+                <div class="about-text">
+                    <p>Halo Saya suci, mahasiswa semester 3 jurusan Rekayasa Sistem Komputer di Universitas Muhammadiyah Buton.saya sekarang sedang belajar beberapa bahasa pemrograman seperti HTML,C++,CSS dan JavaScript.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>My Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>
+                        <p>Saya menyelesaikan pendidikan SMP saya di SMP Negeri 2 Pasarwajo </p>
+                    </h3>
+                </div>
+                <div class="education-item">
+                    <i class="fas fa-university"></i>
+                    <h3>Selanjutnya, saya melanjutkan ke SMA Negeri 1 Pasarwajo</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="hobby">
+        <div class="container">
+            <h2>My Hobbies</h2>
+            <div class="hobby-grid">
+                <div class="hobby-card">
+                    <h3>
+                        <p>saya suka mendegarkan musik</p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Suci Arifsyah" required>
+                <input type="email" placeholder="suciarifsyah@gmail.com" required>
+                <textarea placeholder="082293283413" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
